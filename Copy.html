@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My HTML Practical Page</title>
+</head>
+<body>
+
+    <!-- Header & Navigation -->
+    <h1>My HTML Practical Page</h1>
+    <p>This page demonstrates different HTML tags.</p>
+    <p>
+        <a href="#about">About</a> | 
+        <a href="#images">Images</a> | 
+        <a href="#table">Table</a> | 
+        <a href="#form">Form</a>
+    </p>
+
+    <!-- Headings Section -->
+    <h1>Heading 1</h1>
+    <h2>Heading 2</h2>
+    <h3>Heading 3</h3>
+    <h4>Heading 4</h4>
+    <h5>Heading 5</h5>
+    <h6>Heading 6</h6>
+
+    <!-- Text Formatting -->
+    <p>This is a paragraph. HTML is used to create the structure of a webpage.</p>
+
+    <p>
+        <b>This is bold text.</b><br>
+        <strong>This is important text.</strong><br>
+        <i>This is italic text.</i><br>
+        <u>This is underlined text.</u><br>
+        <mark>This is highlighted text.</mark><br>
+        <small>This is small text.</small><br>
+        <del>This is deleted text.</del><br>
+        H<sub>2</sub>O<br>
+        x<sup>2</sup>
+    </p>
+
+    <!-- Images Section -->
+    <h2>Images</h2>
+    <img src="4.jpg " alt="Student studying">
+
+    <!-- Links Section -->
+    <h2>Links</h2>
+    <p>Visit <a href="https://www.google.com">Google</a></p>
+    <p>Open in a new tab: <a href="https://www.google.com" target="_blank">Go Google</a></p>
+
+    <!-- Lists Section -->
+    <h2>Unordered List</h2>
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+    </ul>
+
+    <h2>Ordered List</h2>
+    <ol type="i">
+        <li>Open VS Code</li>
+        <li>Create HTML file</li>
+        <li>Write HTML code</li>
+        <li>Open in browser</li>
+    </ol>
+
+    <h2>Description List</h2>
+    <dl>
+        <dt>HTML</dt>
+        <dd>HyperText Markup Language</dd>
+        <dt>CSS</dt>
+        <dd>Cascading Style Sheets</dd>
+    </dl>
+
+    <!-- Div and Span -->
+    <h2>Div and Span</h2>
+    <div>
+        <h3>Student Information</h3>
+        <p>My name is <span>John</span>.</p>
+    </div>
+
+    <!-- Student Table -->
+    <h2>Student Table</h2>
+    <table>
+        <caption>Student Marks</caption>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Subject</th>
+                <th>Marks</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>John</td>
+                <td>HTML</td>
+                <td>85</td>
+            </tr>
+            <tr>
+                <td>Sarah</td>
+                <td>CSS</td>
+                <td>90</td>
+            </tr>
+            <tr>
+                <td>David</td>
+                <td>JavaScript</td>
+                <td>78</td>
+            </tr>
+            <tr>
+                <td colspan="2">Average</td>
+                <td>84.3</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- Student Registration Form -->
+    <h2>Student Registration Form</h2>
+    <form>
+        <p>
+            <label>Name: </label>
+            <input type="text">
+        </p>
+        <p>
+            <label>Email: </label>
+            <input type="email">
+        </p>
+        <p>
+            <label>Password: </label>
+            <input type="password">
+        </p>
+        <p>
+            <label>Age: </label>
+            <input type="number">
+        </p>
+        <p>
+            <label>Date of Birth: </label>
+            <input type="date">
+        </p>
+        <p>
+            <label>Gender : </label><br>
+            <input type="radio" name="gender" value="male"> Male
+            <input type="radio" name="gender" value="female"> Female
+        </p>
+        <p>
+            <label>Skills : </label><br>
+            <input type="checkbox" name="skill" value="html"> HTML
+            <input type="checkbox" name="skill" value="css"> CSS
+            <input type="checkbox" name="skill" value="javascript"> JavaScript
+        </p>
+        <p>
+            <label>Choose Course: </label>
+            <select>
+                <option value="">Select</option>
+            </select>
+        </p>
+        <p>
+            <label>Message:</label><br>
+            <textarea rows="4" cols="50"></textarea>
+        </p>
+        <p>
+            <label>Upload File: </label>
+            <input type="file">
+        </p>
+        <p>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+        </p>
+    </form>
+
+    <!-- Quotation -->
+    <h2>Quotation</h2>
+    <blockquote>
+        The best way to learn programming is by writing code.
+    </blockquote>
+    <p>Someone said: <q>Practice makes perfect.</q></p>
+
+    <!-- Code Example -->
+    <h2>Code Example</h2>
+    <p>Example of an HTML tag:</p>
+    <p><code>&lt;p&gt;This is text&lt;/p&gt;</code></p>
+    <pre>
+This is
+preformatted
+text.
+    </pre>
+
+    <!-- Audio & Video -->
+    <h2>Audio</h2>
+     <audio controls>
+        <source src="Pop up.wav" type="audio/wav">
+
+        Your browser does not support the audio element.
+    </audio>
+
+    <h2>Video</h2>
+    <video width="560" controls>
+
+            <source src="Cosmi.mp4" type="video/mp4">
+
+
+        </video>
+
+    <!-- Details and Summary -->
+    <h2>Details and Summary</h2>
+    <details>
+        <summary>Click to learn about HTML</summary>
+        <p>HTML stands for HyperText Markup Language. It is used to structure content on web pages.</p>
+    </details>
+
+    <br>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 My HTML Practical Page</p>
+        <p>Created for HTML practice.</p>
+    </footer>
+
+</body>
+</html>
